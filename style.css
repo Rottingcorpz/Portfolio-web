@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Old English Text MT', fantasy;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #444;
+    color: red;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #222;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #444;
+}
+
+h2 {
+    color: red;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
